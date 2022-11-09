@@ -1,0 +1,9 @@
+@mixin position {
+    display: flex;
+    align-items: center;
+}
+@mixin unsed-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}

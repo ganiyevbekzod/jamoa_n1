@@ -1,0 +1,45 @@
+.site-footer{
+    background: #002529;
+}
+.footer__inner{
+    display: flex;
+    align-items: flex-start;
+    margin: 0 auto;
+    padding:48px 0px;
+}
+.footer__link{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding-top: 25px;
+    margin-right: 40px;
+}
+.footer__content2{
+    width: 100%;
+    max-width:170px;
+    margin-left: 125px;
+}
+.footer__small{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+}
+.footer__content3{
+    width: 100%;
+    width: 270px;
+    margin-left: auto;
+}
+.footer__netwoork{
+    text-align: end;
+    padding-bottom: 51px;
+}
+.footer__netwoorkapp+.footer__netwoorkapp{
+    margin-left: 16px;
+    
+}
+

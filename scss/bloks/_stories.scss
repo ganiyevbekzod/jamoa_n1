@@ -1,0 +1,83 @@
+.stories__inner{
+    position: relative;
+    padding: 140px 0px;
+}
+.stories__inner::before{
+    position: absolute;
+    background-image: url("../../images/stories__img.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 147px;
+    height: 100px;
+    left: -167px;
+    content: '';
+    
+}
+.stories__boxtitle{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 932px;
+}
+.stories__title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    margin: 0px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.stories__list{
+    position: relative;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    @include unsed-list;
+    padding-top: 92px;
+}
+.stories__item{
+    position: relative;
+}
+.stories__item::before{
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    background-image: url("../../images/quote.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    max-width:67px;
+    height:56px;
+    z-index: -1;
+    content: '';
+}
+.stories__subtitle{
+    margin: 0;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.stories__strong{
+    display: block;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #79C8C7;
+    padding-top: 24px;
+}
+.kursiv{
+    display: block;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 32px;
+}
+.stories__img{
+    display: block;
+    margin: 0 auto;
+}
