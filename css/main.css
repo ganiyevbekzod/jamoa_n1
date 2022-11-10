@@ -171,7 +171,7 @@ main {
   position: absolute;
   background-image: url("../../images/hero-circle.svg");
   background-repeat: no-repeat;
-  left: -180px;
+  left: -165px;
   width: 100%;
   max-width: 200px;
   height: 200px;
@@ -240,7 +240,7 @@ main {
   width: 200px;
   height: 244px;
   bottom: 0px;
-  right: -245px;
+  right: -250px;
   content: "";
 }
 
@@ -322,7 +322,7 @@ main {
   background-size: 100%;
   width: 147px;
   height: 100px;
-  left: -167px;
+  left: -165px;
   content: "";
 }
 
@@ -410,9 +410,34 @@ main {
 }
 
 .aside__inner {
+  position: relative;
   display: flex;
   align-items: center;
   padding: 76px;
+}
+
+.aside__inner::after {
+  position: absolute;
+  background-image: url("../../images/aside_afterimg.svg");
+  background-repeat: no-repeat;
+  width: 100%;
+  max-width: 200px;
+  height: 200px;
+  top: -100px;
+  right: -150px;
+  content: "";
+}
+
+.aside__inner::before {
+  position: absolute;
+  background-image: url("../../images/aside-img.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 200px;
+  height: 244px;
+  top: 56px;
+  left: -165px;
+  content: "";
 }
 
 .aside__title {
