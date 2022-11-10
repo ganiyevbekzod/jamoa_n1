@@ -160,9 +160,11 @@ main {
   align-items: center;
   padding-top: 129px;
   padding-bottom: 255px;
-  background-image: url("../../images/hero-circle2.svg");
+  background-image: url("../../images/hero.svg");
   background-repeat: no-repeat;
   background-position: bottom 0px right;
+  background-position-x: 920px;
+  background-position-y: 400px;
   background-size: 350px 100px;
   content: "";
 }
@@ -459,6 +461,10 @@ main {
   color: #FFFFFF;
 }
 
+.footer__span {
+  color: #FFFFFF;
+}
+
 .site-footer {
   background: #002529;
 }
@@ -508,4 +514,88 @@ main {
 
 .footer__netwoorkapp + .footer__netwoorkapp {
   margin-left: 16px;
+}
+
+.directors {
+  background-image: url(../../images/aaaaaaaaaaaa.svg);
+  background-repeat: no-repeat;
+  display: block;
+  background-color: #004047;
+}
+
+.directors__inner {
+  padding: 141px 0;
+}
+
+.directors__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  /* identical to box height, or 100% */
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.directors__list {
+  margin-top: 64px;
+  margin-top: 64px;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.directors__item {
+  width: 350px;
+  padding: 32px 24px;
+  background: #012F34;
+}
+
+.directors__name {
+  margin: 16px 0;
+  display: block;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+  text-align: center;
+  color: #79C8C7;
+}
+
+.directors__comp {
+  line-height: 25px;
+  /* identical to box height, or 167% */
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.directors__plus {
+  margin-bottom: -80px;
+}
+
+.client {
+  background-image: url(../../images/bababab.svg);
+  background-repeat: no-repeat;
+  background-color: #002529;
+}
+
+.client__inner {
+  padding: 140px 0;
+}
+
+.client__title {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
 }/*# sourceMappingURL=main.css.map */

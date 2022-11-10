@@ -1,0 +1,25 @@
+.client {
+    background-image: url(../../images/bababab.svg);
+    background-repeat: no-repeat;
+    background-color: #002529;
+}
+
+.client__inner {
+    padding: 140px 0;
+}
+
+.client__title {
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
