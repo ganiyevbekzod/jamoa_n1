@@ -129,7 +129,7 @@ main {
 
 @media only screen and (max-width: 768px) {
   .header__inner {
-    padding: 64px 0px 112px;
+    padding-top: 64px;
   }
   .nav__list {
     margin-left: 40px;
@@ -222,6 +222,54 @@ main {
   padding: 83px 0px 5px;
 }
 
+@media only screen and (max-width: 768px) {
+  .hero__inner {
+    flex-wrap: wrap;
+    padding-top: 80px;
+    padding-bottom: 200px;
+    background-size: 358px 200px;
+    background-position: bottom;
+  }
+  .title {
+    margin: 0 auto;
+    width: 380px;
+  }
+  .hero__line {
+    display: none;
+  }
+  .hero__title, .span__color {
+    font-size: 64px;
+    line-height: 56px;
+    text-align: center;
+  }
+  .hero__content {
+    margin: 0 auto;
+    width: 427px;
+  }
+  .hero__text {
+    padding-top: 18px;
+    font-size: 15px;
+    line-height: 28px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .hero__inner {
+    background-size: 100%;
+    padding-bottom: 168px;
+  }
+  .title {
+    width: 327px;
+  }
+  .hero__title, .span__color {
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .hero__content {
+    width: 327px;
+  }
+}
 .teams {
   background: #012F34;
 }
