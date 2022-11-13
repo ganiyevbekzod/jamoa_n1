@@ -530,7 +530,6 @@ main {
   font-weight: 700;
   font-size: 48px;
   line-height: 48px;
-  /* identical to box height, or 100% */
   text-align: center;
   color: #FFFFFF;
 }
@@ -569,10 +568,19 @@ main {
   color: #FFFFFF;
 }
 
+.hajimiji {
+  height: 76px;
+}
+
 .directors__plus {
   margin-bottom: -80px;
 }
 
+@media only screen and (max-width: 768px) {
+  .directors__list {
+    flex-wrap: wrap;
+  }
+}
 .client {
   background-image: url(../../images/bababab.svg);
   background-repeat: no-repeat;
