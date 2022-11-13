@@ -9,6 +9,15 @@
 .hero__inner{
     position: relative;
     @include position;
+    padding-top:129px;
+    padding-bottom: 255px;
+    // background-image: url("../../images/hero.svg");
+    background-repeat: no-repeat;
+    background-position: bottom 0px right;
+    background-position-x: 920px;
+    background-position-y: 400px;
+    background-size: 350px 100px;
+    content: '';
 }
 .hero__inner::before{
     position: absolute;

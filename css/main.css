@@ -167,6 +167,15 @@ main {
   align-items: center;
   padding-top: 129px;
   padding-bottom: 255px;
+<<<<<<< HEAD
+=======
+  background-repeat: no-repeat;
+  background-position: bottom 0px right;
+  background-position-x: 920px;
+  background-position-y: 400px;
+  background-size: 350px 100px;
+  content: "";
+>>>>>>> d2c5b01951a699757a3e20b84d35d41e9645115b
 }
 
 .hero__inner::before {
@@ -645,4 +654,83 @@ main {
   display: flex;
   justify-content: center;
   gap: 80px;
+}
+
+.contact__name {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 100px;
+  /* identical to box height, or 156% */
+  color: #FFFFFF;
+}
+
+.contact__color {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  /* identical to box height, or 150% */
+  color: #F67E7E;
+}
+
+.contact__desc {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+  color: #FFFFFF;
+}
+
+.contact__list {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+.contact__input {
+  width: 100%;
+  max-width: 445px;
+  margin-bottom: 30px;
+  border: none;
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  /* identical to box height, or 167% */
+  letter-spacing: -0.115385px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+}
+
+.form {
+  width: 100%;
+  max-width: 540px;
+}
+
+.textarea {
+  border: none;
+  background-color: transparent;
+  margin-top: 20px;
+  width: 100%;
+  max-width: 540px;
+}
+
+.contact__btn {
+  background: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  border-radius: 24px;
+  padding: 9px 32px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+  color: #004047;
+}
+
+.hero {
+  background-image: url(../../images/contactbgi.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
 }/*# sourceMappingURL=main.css.map */
