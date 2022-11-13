@@ -154,24 +154,23 @@ main {
     display: block;
   }
 }
+.hero {
+  background-image: url("../../images/hero-circle.svg"), url("../../images/hero-circle2.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-size: 200px 200px, 358px 200px;
+  background-position: calc(50% - 645px) calc(50% - 60px), 50%;
+}
+
 .hero__inner {
   position: relative;
   display: flex;
   align-items: center;
   padding-top: 129px;
   padding-bottom: 255px;
-  background-image: url("../../images/hero.svg");
-  background-repeat: no-repeat;
-  background-position: bottom 0px right;
-  background-position-x: 920px;
-  background-position-y: 400px;
-  background-size: 350px 100px;
-  content: "";
 }
 
 .hero__inner::before {
   position: absolute;
-  background-image: url("../../images/hero-circle.svg");
   background-repeat: no-repeat;
   left: -165px;
   width: 100%;
