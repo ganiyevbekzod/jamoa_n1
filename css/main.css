@@ -157,10 +157,10 @@ main {
 .hero {
   padding-top: 129px;
   padding-bottom: 255px;
-  background-image: url("../../images/Group.svg");
+  background-image: url("../../images/Group.svg"), url("../../images/hero_buttomcircle.svg");
   background-repeat: no-repeat, no-repeat;
-  background-size: 200px 200px;
-  background-position: calc(50% - 760px) calc(50% - 70px);
+  background-size: 200px 200px, 358px 200px;
+  background-position: calc(50% - 760px) calc(50% - 70px), calc(50% + 350px) calc(50% + 285px);
 }
 
 .hero__inner {
@@ -273,6 +273,10 @@ main {
 }
 .teams {
   background: #012F34;
+  background-image: url("../../images/teams_buttoncircle.svg");
+  background-repeat: no-repeat;
+  background-size: 200px 244px;
+  background-position: calc(50% + 760px) calc(50% + 225px);
 }
 
 .teams__inner {
@@ -284,10 +288,6 @@ main {
 
 .teams__inner::before {
   position: absolute;
-  background-image: url("../../images/teams_cricle.svg");
-  background-repeat: no-repeat;
-  width: 200px;
-  height: 244px;
   bottom: 0px;
   right: -250px;
   content: "";
@@ -359,18 +359,15 @@ main {
   opacity: 0.8;
 }
 
-.stories__inner {
-  position: relative;
-  padding: 140px 0px;
-}
-
-.stories__inner::before {
+.stories {
   background-image: url("../../images/stories__buttoncircle.svg");
   background-repeat: no-repeat;
-  background-position: calc(50% - 100px) 50%;
-  width: 200px;
-  height: 244px;
-  content: "";
+  background-size: 200px 244px;
+  background-position: calc(50% + 660px) calc(50% + 366px);
+}
+
+.stories__inner {
+  padding: 140px 0px;
 }
 
 .stories__boxtitle {
@@ -463,27 +460,15 @@ main {
   padding: 76px;
 }
 
-.aside__inner::after {
-  position: absolute;
-  background-image: url("../../images/aside_afterimg.svg");
-  background-repeat: no-repeat;
-  width: 100%;
-  max-width: 200px;
-  height: 200px;
-  top: -100px;
-  right: -150px;
-  content: "";
-}
-
 .aside__inner::before {
   position: absolute;
   background-image: url("../../images/aside-img.svg");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 200px 244px;
   width: 200px;
   height: 244px;
-  top: 56px;
-  left: -165px;
+  top: -44px;
+  left: -205px;
   content: "";
 }
 

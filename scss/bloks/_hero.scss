@@ -1,10 +1,10 @@
 .hero{
     padding-top:129px;
     padding-bottom: 255px;
-    background-image: url("../../images/Group.svg");
+    background-image: url("../../images/Group.svg"),url("../../images/hero_buttomcircle.svg");
     background-repeat: no-repeat, no-repeat;
-    background-size: 200px 200px;
-    background-position: calc(50% - 760px) calc(50% - 70px);
+    background-size: 200px 200px,358px 200px;
+    background-position: calc(50% - 760px) calc(50% - 70px), calc(50% + 350px) calc(50% + 285px);
 }
 .hero__inner{
     position: relative;

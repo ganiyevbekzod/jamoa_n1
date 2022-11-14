@@ -1,9 +1,12 @@
-.stories__inner{
-    padding: 140px 0px;
+.stories{
     background-image: url("../../images/stories__buttoncircle.svg");
     background-repeat: no-repeat;
-    background-position: calc(50% -100px)  calc(50% - 12px);
     background-size: 200px 244px;
+    background-position: calc(50% + 660px) calc(50% + 366px);
+
+}
+.stories__inner{
+    padding: 140px 0px;
 }
 .stories__boxtitle{
     display: block;

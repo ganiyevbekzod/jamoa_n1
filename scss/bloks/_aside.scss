@@ -6,26 +6,15 @@
     @include position;
     padding: 76px;
 }
-.aside__inner::after{
-    position: absolute;
-    background-image: url("../../images/aside_afterimg.svg");
-    background-repeat: no-repeat;
-    width: 100%;
-    max-width: 200px;
-    height: 200px;
-    top: -100px;
-    right: -150px;
-    content: '';
-}
 .aside__inner::before{
     position: absolute;
     background-image: url("../../images/aside-img.svg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 200px 244px;
     width: 200px;
     height: 244px;
-    top: 56px;
-    left: -165px;
+    top: -44px;
+    left: -205px;
     content: '';
 
 }
