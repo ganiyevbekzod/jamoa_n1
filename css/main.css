@@ -155,27 +155,18 @@ main {
   }
 }
 .hero {
-  background-image: url("../../images/hero-circle.svg"), url("../../images/hero-circle2.svg");
+  padding-top: 129px;
+  padding-bottom: 255px;
+  background-image: url("../../images/Group.svg");
   background-repeat: no-repeat, no-repeat;
-  background-size: 200px 200px, 358px 200px;
-  background-position: calc(50% - 645px) calc(50% - 60px), 50%;
+  background-size: 200px 200px;
+  background-position: calc(50% - 760px) calc(50% - 70px);
 }
 
 .hero__inner {
   position: relative;
   display: flex;
   align-items: center;
-  padding-top: 129px;
-  padding-bottom: 255px;
-<<<<<<< HEAD
-=======
-  background-repeat: no-repeat;
-  background-position: bottom 0px right;
-  background-position-x: 920px;
-  background-position-y: 400px;
-  background-size: 350px 100px;
-  content: "";
->>>>>>> d2c5b01951a699757a3e20b84d35d41e9645115b
 }
 
 .hero__inner::before {
@@ -374,13 +365,11 @@ main {
 }
 
 .stories__inner::before {
-  position: absolute;
-  background-image: url("../../images/stories__img.svg");
+  background-image: url("../../images/stories__buttoncircle.svg");
   background-repeat: no-repeat;
-  background-size: 100%;
-  width: 147px;
-  height: 100px;
-  left: -165px;
+  background-position: calc(50% - 100px) 50%;
+  width: 200px;
+  height: 244px;
   content: "";
 }
 
@@ -725,11 +714,10 @@ main {
   font-weight: 600;
   font-size: 18px;
   line-height: 28px;
-  /* identical to box height, or 156% */
   color: #004047;
 }
 
-.hero {
+.heroo {
   background-image: url(../../images/contactbgi.png);
   background-repeat: no-repeat;
   background-position: right bottom;
