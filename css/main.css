@@ -467,7 +467,7 @@ main {
   background-size: 200px 244px;
   width: 200px;
   height: 244px;
-  top: -44px;
+  top: 5px;
   left: -205px;
   content: "";
 }
@@ -497,6 +497,7 @@ main {
 
 .site-footer {
   background: #002529;
+  z-index: 1;
 }
 
 .footer__inner {
