@@ -1,17 +1,12 @@
-.stories__inner{
-    position: relative;
-    padding: 140px 0px;
-}
-.stories__inner::before{
-    position: absolute;
-    background-image: url("../../images/stories__img.svg");
+.stories{
+    background-image: url("../../images/stories__buttoncircle.svg");
     background-repeat: no-repeat;
-    background-size: 100%;
-    width: 147px;
-    height: 100px;
-    left: -165px;
-    content: '';
-    
+    background-size: 200px 244px;
+    background-position: calc(50% + 660px) calc(50% + 366px);
+
+}
+.stories__inner{
+    padding: 140px 0px;
 }
 .stories__boxtitle{
     display: block;

@@ -1,5 +1,9 @@
 .teams{
     background: #012F34;
+    background-image: url("../../images/teams_buttoncircle.svg");
+    background-repeat: no-repeat;
+    background-size: 200px 244px;
+    background-position: calc(50% + 760px) calc(50% + 225px);
 }
 .teams__inner{
     position:relative;
@@ -9,10 +13,6 @@
 }
 .teams__inner::before{
     position: absolute;
-    background-image: url("../../images/teams_cricle.svg");
-    background-repeat: no-repeat;
-    width: 200px;
-    height: 244px;
     bottom: 0px;
     right: -250px;
     content: '';
@@ -70,9 +70,12 @@
 }
 .teams__text{
     font-weight: 600;
-font-size: 15px;
-line-height: 25px;
-color: #FFFFFF;
-mix-blend-mode: normal;
-opacity: 0.8;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+@media only screen and (max-width:768px) {
+    
 }

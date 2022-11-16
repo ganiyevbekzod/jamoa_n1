@@ -129,7 +129,7 @@ main {
 
 @media only screen and (max-width: 768px) {
   .header__inner {
-    padding: 64px 0px 112px;
+    padding-top: 64px;
   }
   .nav__list {
     margin-left: 40px;
@@ -154,23 +154,23 @@ main {
     display: block;
   }
 }
+.hero {
+  padding-top: 129px;
+  padding-bottom: 255px;
+  background-image: url("../../images/Group.svg"), url("../../images/hero_buttomcircle.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-size: 200px 200px, 358px 200px;
+  background-position: calc(50% - 760px) calc(50% - 70px), calc(50% + 350px) calc(50% + 285px);
+}
+
 .hero__inner {
   position: relative;
   display: flex;
   align-items: center;
-  padding-top: 129px;
-  padding-bottom: 255px;
-  background-repeat: no-repeat;
-  background-position: bottom 0px right;
-  background-position-x: 920px;
-  background-position-y: 400px;
-  background-size: 350px 100px;
-  content: "";
 }
 
 .hero__inner::before {
   position: absolute;
-  background-image: url("../../images/hero-circle.svg");
   background-repeat: no-repeat;
   left: -165px;
   width: 100%;
@@ -223,8 +223,60 @@ main {
   padding: 83px 0px 5px;
 }
 
+@media only screen and (max-width: 768px) {
+  .hero__inner {
+    flex-wrap: wrap;
+    padding-top: 80px;
+    padding-bottom: 200px;
+    background-size: 358px 200px;
+    background-position: bottom;
+  }
+  .title {
+    margin: 0 auto;
+    width: 380px;
+  }
+  .hero__line {
+    display: none;
+  }
+  .hero__title, .span__color {
+    font-size: 64px;
+    line-height: 56px;
+    text-align: center;
+  }
+  .hero__content {
+    margin: 0 auto;
+    width: 427px;
+  }
+  .hero__text {
+    padding-top: 18px;
+    font-size: 15px;
+    line-height: 28px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .hero__inner {
+    background-size: 100%;
+    padding-bottom: 168px;
+  }
+  .title {
+    width: 327px;
+  }
+  .hero__title, .span__color {
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .hero__content {
+    width: 327px;
+  }
+}
 .teams {
   background: #012F34;
+  background-image: url("../../images/teams_buttoncircle.svg");
+  background-repeat: no-repeat;
+  background-size: 200px 244px;
+  background-position: calc(50% + 760px) calc(50% + 225px);
 }
 
 .teams__inner {
@@ -236,10 +288,6 @@ main {
 
 .teams__inner::before {
   position: absolute;
-  background-image: url("../../images/teams_cricle.svg");
-  background-repeat: no-repeat;
-  width: 200px;
-  height: 244px;
   bottom: 0px;
   right: -250px;
   content: "";
@@ -311,20 +359,15 @@ main {
   opacity: 0.8;
 }
 
-.stories__inner {
-  position: relative;
-  padding: 140px 0px;
+.stories {
+  background-image: url("../../images/stories__buttoncircle.svg");
+  background-repeat: no-repeat;
+  background-size: 200px 244px;
+  background-position: calc(50% + 660px) calc(50% + 366px);
 }
 
-.stories__inner::before {
-  position: absolute;
-  background-image: url("../../images/stories__img.svg");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  width: 147px;
-  height: 100px;
-  left: -165px;
-  content: "";
+.stories__inner {
+  padding: 140px 0px;
 }
 
 .stories__boxtitle {
@@ -417,6 +460,7 @@ main {
   padding: 76px;
 }
 
+<<<<<<< HEAD
 .aside__inner::after {
   position: absolute;
   background-image: url("../../images/aside_afterimg.svg");
@@ -429,15 +473,17 @@ main {
   content: "";
 }
 
+=======
+>>>>>>> 3bf7837fbdb3095f8670af1b93d4d8ba65f93eb7
 .aside__inner::before {
   position: absolute;
   background-image: url("../../images/aside-img.svg");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 200px 244px;
   width: 200px;
   height: 244px;
-  top: 56px;
-  left: -165px;
+  top: 5px;
+  left: -205px;
   content: "";
 }
 
@@ -466,6 +512,7 @@ main {
 
 .site-footer {
   background: #002529;
+  z-index: 1;
 }
 
 .footer__inner {
@@ -723,11 +770,10 @@ main {
   font-weight: 600;
   font-size: 18px;
   line-height: 28px;
-  /* identical to box height, or 156% */
   color: #004047;
 }
 
-.hero {
+.heroo {
   background-image: url(../../images/contactbgi.png);
   background-repeat: no-repeat;
   background-position: right bottom;

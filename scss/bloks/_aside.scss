@@ -6,6 +6,7 @@
     @include position;
     padding: 76px;
 }
+<<<<<<< HEAD
 .aside__inner::after{
     position: absolute;
     background-image: url("../../images/aside_afterimg.svg");
@@ -17,15 +18,17 @@
     right: -20px;
     content: '';
 }
+=======
+>>>>>>> 3bf7837fbdb3095f8670af1b93d4d8ba65f93eb7
 .aside__inner::before{
     position: absolute;
     background-image: url("../../images/aside-img.svg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 200px 244px;
     width: 200px;
     height: 244px;
-    top: 56px;
-    left: -165px;
+    top: 5px;
+    left: -205px;
     content: '';
 
 }
