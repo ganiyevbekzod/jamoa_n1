@@ -1,38 +1,19 @@
-.site-aside{
+.site-aside {
     background: #F67E7E;
+    background-image: url("../../images/aside_left_circle.svg");
+    background-repeat: no-repeat;
+    background-size: 200px 244px;
+    background-position: calc(50% - 660px) calc(50% + 93px);
 }
-.aside__inner{
+
+.aside__inner {
     position: relative;
     @include position;
     padding: 76px;
-}
-<<<<<<< HEAD
-.aside__inner::after{
-    position: absolute;
-    background-image: url("../../images/aside_afterimg.svg");
-    background-repeat: no-repeat;
     width: 100%;
-    max-width: 200px;
-    height: 200px;
-    top: -100px;
-    right: -20px;
-    content: '';
 }
-=======
->>>>>>> 3bf7837fbdb3095f8670af1b93d4d8ba65f93eb7
-.aside__inner::before{
-    position: absolute;
-    background-image: url("../../images/aside-img.svg");
-    background-repeat: no-repeat;
-    background-size: 200px 244px;
-    width: 200px;
-    height: 244px;
-    top: 5px;
-    left: -205px;
-    content: '';
 
-}
-.aside__title{
+.aside__title {
     margin: 0;
     padding: 0;
     font-weight: 700;
@@ -40,17 +21,57 @@
     line-height: 48px;
     color: #012F34;
 }
-.btn-link:nth-child(2){
+
+.btn-link:nth-child(2) {
     border: 2px solid #012F34;
     border-radius: 24px;
     color: #012F34;
-    &:active{
-        background: #012F34;
-        color: #FFFFFF;
+}
 
-    }
+.btn-link:nth-child(2):active {
+    background: #012F34;
+    color: #FFFFFF;
 }
 
 .footer__span {
     color: #FFFFFF;
+}
+
+@media only screen and(max-width:768px) {
+    .site-aside {
+        background-position: left top 95px;
+    }
+
+    .aside__title {
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+}
+
+@media only screen and(max-width:576px) {
+    .site-aside {
+        background-position: left bottom -139px;
+    }
+
+    .aside__inner {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        padding: 83px 0px;
+        height: 300px;
+    }
+
+    .aside__title {
+        margin-bottom: 24px;
+    }
+
+    .btn-link {
+        display: block;
+        margin: 0 auto;
+
+
+
+    }
+
 }

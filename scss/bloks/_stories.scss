@@ -3,7 +3,6 @@
     background-repeat: no-repeat;
     background-size: 200px 244px;
     background-position: calc(50% + 660px) calc(50% + 366px);
-
 }
 .stories__inner{
     padding: 140px 0px;
@@ -36,14 +35,15 @@
 }
 .stories__item::before{
     position: absolute;
-    left: 50%;
-    right: 50%;
     background-image: url("../../images/quote.svg");
     background-repeat: no-repeat;
-    background-position: center;
     width: 100%;
     max-width:67px;
     height:56px;
+    left: 0;
+    right: 0;
+    top: -30px;
+    margin: 0 auto;
     z-index: -1;
     content: '';
 }
@@ -72,7 +72,33 @@
     color: #FFFFFF;
     padding-bottom: 32px;
 }
-.stories__img{
-    display: block;
-    margin: 0 auto;
+@media only screen and(max-width:768px) {
+    .stories{
+        background-position: bottom -122px right;
+    }
+    .stories__item::before{
+        margin-top: 75px;
+        background-position: left  top;
+    }
+    .stories__title {
+        padding: 0;
+    margin-bottom: 48px;
+    font-size: 32px;
+    line-height: 32px;
+    }
+    .stories__list{
+        display: block;
+    }
+    .stories__list{
+        padding: 0;
+        
+    }
+    .stories__item{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .stories__subtitle{
+        padding-top: 80px;
+    }
 }

@@ -48,25 +48,26 @@
 }
 
 @media only screen and (max-width:576px) {
-     .social-media {
+    .btn-link{
+        display: none;
+    }
+    .social-media {
         width: 227px;
         flex-wrap: wrap;
         gap: 40px;
         margin: 0 auto;
-     }
+    }
 
-     .clinet-img {
+    .clinet-img {
         display: block;
-     }
+    }
 
-     .client__title {
+    .client__title {
         text-align: center;
         font-weight: 700;
         font-size: 32px;
         line-height: 32px;
-     }
+    }
 
-     .client {
-
-     }
+    .client {}
 }
