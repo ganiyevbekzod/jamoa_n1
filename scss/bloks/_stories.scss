@@ -30,6 +30,10 @@
     @include unsed-list;
     padding-top: 92px;
 }
+.stories__img{
+    display: block;
+    margin: 0 auto;
+}
 .stories__item{
     position: relative;
 }

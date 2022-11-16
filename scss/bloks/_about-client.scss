@@ -30,12 +30,6 @@
     gap: 80px;
 }
 
-
-
-
-
-
-
 @media only screen and (max-width:768px) {
     .client__inner {
         width: 689px;
@@ -48,9 +42,10 @@
 }
 
 @media only screen and (max-width:576px) {
-    .btn-link{
+    .btn-link {
         display: none;
     }
+
     .social-media {
         width: 227px;
         flex-wrap: wrap;
