@@ -28,7 +28,8 @@
 }
 
 .directors__item {
-    width: 350px;
+    width: 100%;
+    max-width: 350px;
     padding: 32px 24px;
     background: #012F34;
 }
@@ -65,11 +66,20 @@
     }
 
     .directors__item {
-        
+        display: block;
+        margin-bottom: 50px;
+        width: 281px;
     }
 }
 
 @media only screen and (max-width:576px) {
-    
+    .directors__list {
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+
+    .directors__item {
+        width: 327px;
+    }
     
 }
