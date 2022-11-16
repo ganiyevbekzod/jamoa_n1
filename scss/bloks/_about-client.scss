@@ -2,9 +2,13 @@
     background-image: url(../../images/bababab.svg);
     background-repeat: no-repeat;
     background-color: #002529;
+    overflow: hidden;
 }
 
 .client__inner {
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto;
     padding: 140px 0;
 }
 
@@ -19,7 +23,50 @@
 }
 
 .social-media {
+    width: 100%;
+    max-width: 1110px;
     display: flex;
     justify-content: center;
     gap: 80px;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width:768px) {
+    .client__inner {
+        width: 689px;
+    }
+
+    .social-media {
+        width: 689px;
+        gap: 15px;
+    }
+}
+
+@media only screen and (max-width:576px) {
+     .social-media {
+        width: 227px;
+        flex-wrap: wrap;
+        gap: 40px;
+        margin: 0 auto;
+     }
+
+     .clinet-img {
+        display: block;
+     }
+
+     .client__title {
+        text-align: center;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 32px;
+     }
+
+     .client {
+
+     }
 }

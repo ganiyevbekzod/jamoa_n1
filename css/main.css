@@ -460,6 +460,21 @@ main {
   padding: 76px;
 }
 
+<<<<<<< HEAD
+.aside__inner::after {
+  position: absolute;
+  background-image: url("../../images/aside_afterimg.svg");
+  background-repeat: no-repeat;
+  width: 100%;
+  max-width: 200px;
+  height: 200px;
+  top: -100px;
+  right: -20px;
+  content: "";
+}
+
+=======
+>>>>>>> 3bf7837fbdb3095f8670af1b93d4d8ba65f93eb7
 .aside__inner::before {
   position: absolute;
   background-image: url("../../images/aside-img.svg");
@@ -562,7 +577,6 @@ main {
   font-weight: 700;
   font-size: 48px;
   line-height: 48px;
-  /* identical to box height, or 100% */
   text-align: center;
   color: #FFFFFF;
 }
@@ -578,7 +592,8 @@ main {
 }
 
 .directors__item {
-  width: 350px;
+  width: 100%;
+  max-width: 350px;
   padding: 32px 24px;
   background: #012F34;
 }
@@ -601,17 +616,44 @@ main {
   color: #FFFFFF;
 }
 
+.hajimiji {
+  height: 76px;
+}
+
 .directors__plus {
   margin-bottom: -80px;
 }
 
+@media only screen and (max-width: 768px) {
+  .directors__list {
+    flex-wrap: wrap;
+  }
+  .directors__item {
+    display: block;
+    margin-bottom: 50px;
+    width: 281px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .directors__list {
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  .directors__item {
+    width: 327px;
+  }
+}
 .client {
   background-image: url(../../images/bababab.svg);
   background-repeat: no-repeat;
   background-color: #002529;
+  overflow: hidden;
 }
 
 .client__inner {
+  width: 100%;
+  max-width: 1110px;
+  margin: 0 auto;
   padding: 140px 0;
 }
 
@@ -626,11 +668,39 @@ main {
 }
 
 .social-media {
+  width: 100%;
+  max-width: 1110px;
   display: flex;
   justify-content: center;
   gap: 80px;
 }
 
+@media only screen and (max-width: 768px) {
+  .client__inner {
+    width: 689px;
+  }
+  .social-media {
+    width: 689px;
+    gap: 15px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .social-media {
+    width: 227px;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin: 0 auto;
+  }
+  .clinet-img {
+    display: block;
+  }
+  .client__title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+  }
+}
 .contact__name {
   font-weight: 700;
   font-size: 64px;
